@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Nedder | About Me</title>
+    <link rel="icon" href="images/bold-logo.png" sizes="any">
+    <link rel="icon" href="images/bold-logo.png" type="image/svg+xml">
+
+    <!-- BOOSTRAP STYLE SHEET -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css\styles.scss">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand oswald" href="index.html">RN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="portfolioNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-house fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fas fa-pen-to-square fa-lg"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-2.html"><i class="fas fa-laptop-code fa-lg"></i> Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-comment-dots fa-lg"></i> Contact</a></li>                 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT ME -->
+    <main class="mt-5 mb-5 px-4 py-4 container transparent-background">
+        <section id="about">
+            <!-- ABOUT GRID -->
+            <div class="row row-content">
+                <div class="col">
+                    <h1 class="text-center">About Me</h1>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col-12 col-md-4 col-xl-2 text-center">
+                    <img class="img-thumbnail mx-auto" id="profile" src="images\cropped-profile.jpg" width="200" alt="Profile picture of Rose with trees behind her." />
+                </div>
+                <div class="col-12 col-md-8 col-xl-10">
+                    <p>Hi, I'm Rose. I've always had a passion for problem-solving and creativity. 
+                        With a solid foundation in supply chain, I bring a unique perspective to web development and software engineering. 
+                        Beyond technical proficiency, I am a collaborator at heart, valuing open communication and teamwork.
+                        I thrive in environments where diverse persepectives converge to innovate and solve complex problems. 
+                    </p>
+                    <p>In my freetime I enjoy painting, cooking, baking and playing games with friends.
+                        You can often find me at a variety of gaming and anime conventions each year. 
+                    </p>
+                </div>
+            </div>
+            
+            <!-- SKILLS GRID -->
+            <div class="row row-content">
+                <div class="d-none d-md-block col-12 col-md-4 col-xl-2"></div>
+                <div class="col-12 col-md-3">
+                    <h2 class="pink-text">Skills</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="fab fa-html5 fa-xl"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt fa-xl"></i> CSS</li>
+                        <li><i class="fab fa-sass fa-xl"></i> SCSS / SASS</li>
+                        <li><i class="fab fa-bootstrap fa-xl"></i> Bootstrap</li>
+                        <li><i class="fab fa-python fa-xl"></i> Python</li>
+                        <li> SQL</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5">
+                    <h2 class="pink-text">Certifications</h2>
+                    <ul class="list-unstyled">
+                        <li>The Complete SQL Bootcamp: Go from Zero to Hero | <a href="https://www.udemy.com/course/the-complete-sql-bootcamp/?couponCode=KEEPLEARNING">Udemy</a></li>
+                        <li>Python & Apps | <a href="https://codefirstgirls.com/courses/coding-kickstarter/">Code First Girls</a></li>
+                        <li>Web Development Fundamentals | <a href="https://www.nucamp.co/bootcamp-overview/web-development-fundamentals">Nucamp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->    
+    <footer id="contact" class="footer mt-auto py-3 text-white text-center">
+        <div class="container">
+                <a class="navbar-brand" href="https://www.linkedin.com/in/rosenedder"><i class="fab fa-linkedin fa-xl"></i> LinkedIn</a> | 
+                <a class="navbar-brand" href="https://github.com/RNedder"><i class="fab fa-github fa-xl"></i> GitHub</a> |
+                <a class="navbar-brand" href="https://codepen.io/Rose-Nedder"><i class="fas fa-laptop-code fa-xl"></i> CodePen</a> |
+                <a class="navbar-brand" href="https://replit.com/@rosenedder"><i class="fas fa-laptop-code fa-xl"></i> Replit</a> |
+                <a class="navbar-brand" href="mailto:rose.nedder@gmail.com"><i class="fas fa-envelope fa-xl"></i> Email</a>
+                <p class="mt-3 mb-0">© 2024 Rose Nedder</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript plugins -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

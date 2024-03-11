@@ -1,0 +1,62 @@
+/* SCSS Variables */
+$color-primary: #aa5267;
+$color-secondary: #140418;
+$color-secondary-transparent: #140418be;
+
+/* Background Photo */
+body {
+    background-image: url("../images/cartist-3iUE4iEIdJw-unsplash.jpg");
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+/* Header Font Styling */
+h1, h2 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.pink-text {
+    color: $color-primary;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: black;
+    color: $color-primary;
+    padding: 10px 15px;
+}
+
+/* Navbar & Footer Background */
+.navbar, footer {
+    background-color: black;
+}
+
+footer {
+    margin-top: auto;
+}
+ 
+/* Transparent Background for Page Content */
+.transparent-background {
+    background-color: $color-secondary-transparent;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/* Profile Picture Styling */
+#profile {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Custom Pink Buttons */
+.btn-custom {
+    background-color: $color-primary;
+    color: white;
+}
