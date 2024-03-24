@@ -1,7 +1,17 @@
 /* SCSS Variables */
-$color-primary: #aa5267;
+
+$color-yellow: #ffd768;
+$color-pink: #ffa3c1;
+$color-peach: #ffbdac;
+$color-lavender: #ef99f7;
+$color-purple: #c99dff;
+$color-blue: #55bcde;
+$color-blue-transparent: #0b232bb6;
+$color-blue-dark: #020a0e;
 $color-secondary: #140418;
-$color-secondary-transparent: #140418be;
+$color-secondary-transparent: hsla(288, 71%, 5%, 0.745);
+$color-green-accent: #82e280;
+
 
 /* Background Photo */
 body {
@@ -14,13 +24,17 @@ body {
 }
 
 /* Header Font Styling */
-h1, h2 {
+h1, h2, .card-title {
     font-family: "Oswald", sans-serif;
-    color: white;
+    color: $color-blue;
 }
 
-.pink-text {
-    color: $color-primary;
+.yellow-text {
+    color: $color-yellow;
+}
+
+#main-title {
+    color: white;
 }
 
 .oswald {
@@ -28,8 +42,14 @@ h1, h2 {
     font-weight: bold;
     font-size: 150%;
     background-color: black;
-    color: $color-primary;
+    color: $color-pink;
     padding: 10px 15px;
+}
+
+/* Paragraph font styling */
+p, ul {
+    color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar & Footer Background */
@@ -43,10 +63,11 @@ footer {
  
 /* Transparent Background for Page Content */
 .transparent-background {
-    background-color: $color-secondary-transparent;
-    max-width: 80%;
+    background-color: black;
+    max-width: 85%;
     margin: auto;
     border-radius: 20px;
+    border: solid 2px $color-blue;
 }
 
 /* Profile Picture Styling */
@@ -57,6 +78,14 @@ footer {
 
 /* Custom Pink Buttons */
 .btn-custom {
-    background-color: $color-primary;
-    color: white;
+    background-color: $color-yellow;
+    color: black;
+}
+
+hr {
+    color: $color-blue;
+}
+
+.card {
+    border: solid 2px $color-blue;
 }
